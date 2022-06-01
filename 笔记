@@ -680,18 +680,18 @@ DAO: --> jdbc2 -> DAO -> 所有内容
                //方式一:
        //        try {
        //            DbUtils.close(rs);
-       //        } catch (SQLException throwables) {
-       //            throwables.printStackTrace();
+       //        } catch (SQLException e) {
+       //            e.printStackTrace();
        //        }
        //        try {
        //            DbUtils.close(ps);
-       //        } catch (SQLException throwables) {
-       //            throwables.printStackTrace();
+       //        } catch (SQLException e) {
+       //            e.printStackTrace();
        //        }
        //        try {
        //            DbUtils.close(conn);
-       //        } catch (SQLException throwables) {
-       //            throwables.printStackTrace();
+       //        } catch (SQLException e) {
+       //            e.printStackTrace();
        //        }
 
                //方式二:
@@ -702,4 +702,37 @@ DAO: --> jdbc2 -> DAO -> 所有内容
 
 
 
+
+
+
+git操作
+clone: 拷贝远程仓库
+commit: 本地提交
+push: 远程提交
+pull: 更新到本地
+
+
+
+
+
+生成javadoc:
+
+   Tools -> Generate JavaDoc --> 选择指定的 project 或者 module
+
+     输入 :
+      Locale: 输入语言类型: zh_CN
+      Other command line arguments : -encoding UTF-8 -charset UTF-8
+
+
+
+本地查看修改的历史记录
+  右键要查看的项目或文件 -> Local History -> show History
+
+
+
+缓存和索引的清理
+   IDEA报各种莫名其妙的错误,或者项目打不开的情况
+     可以清理缓存和索引:
+
+       File -> Invalidate Caches/Restart -> Invalidate and Restart
 
