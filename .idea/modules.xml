@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC.iml" filepath="$PROJECT_DIR$/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc1/jdbc1.iml" filepath="$PROJECT_DIR$/jdbc1/jdbc1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc2/jdbc2.iml" filepath="$PROJECT_DIR$/jdbc2/jdbc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc3/jdbc3.iml" filepath="$PROJECT_DIR$/jdbc3/jdbc3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staticWeb/staticWeb.iml" filepath="$PROJECT_DIR$/staticWeb/staticWeb.iml" />
+    </modules>
+  </component>
+</project>
